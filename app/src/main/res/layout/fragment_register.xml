@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColorHint="#9E000000"
+                android:layout_marginTop="10dp"
+                android:id="@+id/email"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColorHint="#9E000000"
+                android:layout_marginTop="10dp"
+                android:id="@+id/username"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="#9E000000"
+                android:layout_marginTop="10dp"
+                android:id="@+id/password"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password Confirmation"
+                android:textColorHint="#9E000000"
+                android:layout_marginTop="10dp"
+                android:id="@+id/password2"
+                android:textAlignment="center"
+                />
+            <Button
+                android:id="@+id/register"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#733572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"/>
+            <Button
+                android:id="@+id/login"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#9E733572"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
